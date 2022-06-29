@@ -11,8 +11,9 @@ class Main{
         System.out.println("Hello, World!");
 
         opSoma s = new opSoma();
+        opDiv d = new opDiv();
 
-        s.soma();
+        d.divisao();
 
     }
 }
