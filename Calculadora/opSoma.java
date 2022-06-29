@@ -47,13 +47,8 @@ public class opSoma {
             soma += valor; //somando os valores 
         }
         
-        System.out.println("= " + soma);
-
-        String teste = "1a";
-        boolean isNumeric = teste.matches("[+-]?\\d*(\\.\\d+)?");
-        if(isNumeric){
-            System.out.println("e numero");
-        } else {System.out.println("não e numero");}
+        scan.close();
+        System.out.println("= " + soma); //visualização da soma dos valores
 
     }
 
