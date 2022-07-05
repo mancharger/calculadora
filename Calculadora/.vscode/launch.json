@@ -15,7 +15,7 @@
             "name": "Launch Main",
             "request": "launch",
             "mainClass": "Main",
-            "projectName": "Calculadora_c6fa02cb"
+            "projectName": "Calculadora_c6fa02cb",
         }
     ]
 }

@@ -1,19 +1,32 @@
 import java.util.Scanner;
 
-class Main{
+import javafx.event.ActionEvent;
+import javafx.event.EventHandler;
+import javafx.application.Application;
+import javafx.fxml.FXMLLoader;
+import javafx.scene.Parent;
+import javafx.scene.Scene;
+import javafx.stage.Stage;
+import javafx.scene.layout.StackPane;
+import javafx.scene.control.Button;
 
-    public static void clearBuffer(Scanner scanner){
-        if (scanner.hasNextLine()) {
-            scanner.nextLine();
-        }
+public class Main extends Application{
+
+    public static void main(String[] args) throws Exception{
+        launch(args);
+
     }
-    public static void main(String[] args) {
-        System.out.println("Hello, World!");
+    
+    @Override
+    public void start(Stage primaryStage) throws Exception {
+        FXMLLoader fxmloader = new FXMLLoader(getClass().getResource("layout.fxml"));
+        Parent root = fxmloader.load();
+        Scene tela = new Scene(root);
 
-        opSoma s = new opSoma();
-        opDiv d = new opDiv();
-
-        d.divisao();
+        primaryStage.setTitle("Calculadora das Galáxias");
+        primaryStage.setScene(tela);
+        primaryStage.show();
 
     }
+    
 }

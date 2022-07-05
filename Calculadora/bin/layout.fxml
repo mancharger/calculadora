@@ -81,7 +81,7 @@
                   <Font name="System Bold" size="22.0" />
                </font>
             </Button>
-            <Label contentDisplay="RIGHT" layoutX="24.0" layoutY="42.0" prefHeight="65.0" prefWidth="236.0" text="numerosssssssssss" textAlignment="RIGHT">
+            <Label alignment="CENTER_RIGHT" contentDisplay="RIGHT" layoutX="24.0" layoutY="42.0" prefHeight="65.0" prefWidth="236.0" text="0" textAlignment="RIGHT">
                <font>
                   <Font size="23.0" />
                </font>
