@@ -7,7 +7,7 @@
 <?import javafx.scene.paint.*?>
 <?import javafx.scene.text.*?>
 
-<VBox prefHeight="400.0" prefWidth="283.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+<VBox prefHeight="400.0" prefWidth="283.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="TelaInicialController">
   <children>
     <AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="444.0" prefWidth="640.0" VBox.vgrow="ALWAYS">
          <children>
@@ -16,72 +16,72 @@
                   <Font name="System Bold" size="22.0" />
                </font>
             </Button>
-            <Button layoutX="81.0" layoutY="136.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="46.0" text="2" textAlignment="CENTER">
+            <Button fx:id="btnNUM2" layoutX="81.0" layoutY="136.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="46.0" text="2" textAlignment="CENTER">
                <font>
                   <Font name="System Bold" size="22.0" />
                </font>
             </Button>
-            <Button layoutX="138.0" layoutY="136.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="46.0" text="3" textAlignment="CENTER">
+            <Button fx:id="btnNUM3" layoutX="138.0" layoutY="136.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="46.0" text="3" textAlignment="CENTER">
                <font>
                   <Font name="System Bold" size="22.0" />
                </font>
             </Button>
-            <Button layoutX="81.0" layoutY="247.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="46.0" text="8" textAlignment="CENTER">
+            <Button fx:id="btnNUM8" layoutX="81.0" layoutY="247.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="46.0" text="8" textAlignment="CENTER">
                <font>
                   <Font name="System Bold" size="22.0" />
                </font>
             </Button>
-            <Button layoutX="23.0" layoutY="247.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="46.0" text="7" textAlignment="CENTER">
+            <Button fx:id="btnNUM7" layoutX="23.0" layoutY="247.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="46.0" text="7" textAlignment="CENTER">
                <font>
                   <Font name="System Bold" size="22.0" />
                </font>
             </Button>
-            <Button layoutX="138.0" layoutY="192.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="46.0" text="6" textAlignment="CENTER">
+            <Button fx:id="btnNUM6" layoutX="138.0" layoutY="192.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="46.0" text="6" textAlignment="CENTER">
                <font>
                   <Font name="System Bold" size="22.0" />
                </font>
             </Button>
-            <Button layoutX="81.0" layoutY="192.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="46.0" text="5" textAlignment="CENTER">
+            <Button fx:id="btnNUM5" layoutX="81.0" layoutY="192.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="46.0" text="5" textAlignment="CENTER">
                <font>
                   <Font name="System Bold" size="22.0" />
                </font>
             </Button>
-            <Button layoutX="23.0" layoutY="192.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="46.0" text="4" textAlignment="CENTER">
+            <Button fx:id="btnNUM4" layoutX="23.0" layoutY="192.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="46.0" text="4" textAlignment="CENTER">
                <font>
                   <Font name="System Bold" size="22.0" />
                </font>
             </Button>
-            <Button layoutX="138.0" layoutY="247.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="46.0" text="9" textAlignment="CENTER">
+            <Button fx:id="btnNUM9" layoutX="138.0" layoutY="247.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="46.0" text="9" textAlignment="CENTER">
                <font>
                   <Font name="System Bold" size="22.0" />
                </font>
             </Button>
-            <Button layoutX="81.0" layoutY="304.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="46.0" text="0" textAlignment="CENTER">
+            <Button fx:id="btnNUM0" layoutX="81.0" layoutY="304.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="46.0" text="0" textAlignment="CENTER">
                <font>
                   <Font name="System Bold" size="22.0" />
                </font>
             </Button>
-            <Button blendMode="EXCLUSION" layoutX="215.0" layoutY="136.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="46.0" text="+" textAlignment="CENTER">
+            <Button fx:id="btnSoma" blendMode="EXCLUSION" layoutX="215.0" layoutY="136.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="46.0" text="+" textAlignment="CENTER">
                <font>
                   <Font name="System Bold" size="22.0" />
                </font>
             </Button>
-            <Button blendMode="EXCLUSION" layoutX="215.0" layoutY="192.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="46.0" text="-" textAlignment="CENTER">
+            <Button fx:id="btnSub" blendMode="EXCLUSION" layoutX="215.0" layoutY="192.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="46.0" text="-" textAlignment="CENTER">
                <font>
                   <Font name="System Bold" size="22.0" />
                </font>
             </Button>
-            <Button blendMode="EXCLUSION" layoutX="215.0" layoutY="247.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="46.0" text="*" textAlignment="CENTER">
+            <Button fx:id="btnMulti" blendMode="EXCLUSION" layoutX="215.0" layoutY="247.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="46.0" text="*" textAlignment="CENTER">
                <font>
                   <Font name="System Bold" size="22.0" />
                </font>
             </Button>
-            <Button blendMode="EXCLUSION" layoutX="215.0" layoutY="304.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="46.0" text="/" textAlignment="CENTER">
+            <Button fx:id="btnDiv" blendMode="EXCLUSION" layoutX="215.0" layoutY="304.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="46.0" text="/" textAlignment="CENTER">
                <font>
                   <Font name="System Bold" size="22.0" />
                </font>
             </Button>
-            <Label alignment="CENTER_RIGHT" contentDisplay="RIGHT" layoutX="24.0" layoutY="42.0" prefHeight="65.0" prefWidth="236.0" text="0" textAlignment="RIGHT">
+            <Label fx:id="telacalculos" alignment="CENTER_RIGHT" contentDisplay="RIGHT" layoutX="24.0" layoutY="42.0" prefHeight="65.0" prefWidth="236.0" text="0" textAlignment="RIGHT">
                <font>
                   <Font size="23.0" />
                </font>
