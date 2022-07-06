@@ -29,4 +29,8 @@ public class Main extends Application{
 
     }
     
+    // Será criado outro arquivo para continuação da calculadora, utilizando uma interface gráfica
+     
+     
+
 }

@@ -11,7 +11,7 @@
   <children>
     <AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="444.0" prefWidth="640.0" VBox.vgrow="ALWAYS">
          <children>
-            <Button layoutX="23.0" layoutY="136.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="46.0" text="1" textAlignment="CENTER">
+            <Button fx:id="btnNUM1" layoutX="23.0" layoutY="136.0" mnemonicParsing="false" onAction="#clickNUM1" prefHeight="45.0" prefWidth="46.0" text="1" textAlignment="CENTER">
                <font>
                   <Font name="System Bold" size="22.0" />
                </font>
